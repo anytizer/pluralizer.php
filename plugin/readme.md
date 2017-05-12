@@ -1,0 +1,1 @@
+As smarty plugin

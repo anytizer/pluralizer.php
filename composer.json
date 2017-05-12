@@ -1,0 +1,21 @@
+{
+	"name": "anytizer/pluralizer.php",
+	"description": "Pluralizes a word",
+	"type": "library",
+	"keywords": [
+		"pluralizer"
+	],
+	"authors": [
+		{
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"files": ["src/libraries/classes/common/class.pluralizer.inc.php"]
+	}
+}

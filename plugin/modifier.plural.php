@@ -12,7 +12,7 @@ use common\pluralizer;
 function smarty_modifier_plural($word = "", $counter = 0)
 {
 	$pluralizer = new pluralizer();
-	$word = $pluralizer->pluralize($word, $counter);
+	$word = $pluralizer->pluralize($word);
 	
 	return $word;
 }

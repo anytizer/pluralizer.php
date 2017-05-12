@@ -4,8 +4,8 @@ Pluralizing words in PHP
 
 ## Example
 
-    $g = new guid();
-    $guid = $g->NewGuid();
+    $pluralizer = new pluralizer();
+    $word = $pluralizer->pluralize($word);
 
 
 # Installation

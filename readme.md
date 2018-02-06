@@ -10,5 +10,7 @@ Pluralizing words in PHP
 
 ## Example
 
+    namespace backend\common;
+
     $pluralizer = new pluralizer();
     $word = $pluralizer->pluralize($word);

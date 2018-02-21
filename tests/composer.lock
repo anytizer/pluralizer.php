@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/anytizer/pluralizer.php.git",
-                "reference": "d768e8c49b76ee813ee8a66ebb8b0dff3d78d1d0"
+                "reference": "c375ae16d5d32eb92c24af218bb6a1af451d841b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anytizer/pluralizer.php/zipball/d768e8c49b76ee813ee8a66ebb8b0dff3d78d1d0",
-                "reference": "d768e8c49b76ee813ee8a66ebb8b0dff3d78d1d0",
+                "url": "https://api.github.com/repos/anytizer/pluralizer.php/zipball/c375ae16d5d32eb92c24af218bb6a1af451d841b",
+                "reference": "c375ae16d5d32eb92c24af218bb6a1af451d841b",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "pluralizer\\": "src/libraries/classes"
+                    "common\\": "src/libraries/classes/common"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -34,7 +34,7 @@
             "keywords": [
                 "pluralizer"
             ],
-            "time": "2018-02-21T21:48:54+00:00"
+            "time": "2018-02-21T21:53:19+00:00"
         }
     ],
     "packages-dev": [],

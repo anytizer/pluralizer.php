@@ -1,14 +1,16 @@
 tests\pluralizer
- [ ] Unclassified
- [ ] Geese
+ [x] Unclassified
+ [x] Geese
  [x] Feet
  [x] Potatoes
- [ ] Fruits
+ [x] Fruits
  [x] Frequencies
  [x] Copies
- [ ] Cookies
- [ ] Statuses
+ [x] Cookies
+ [x] Statuses
  [x] Companies
  [ ] Children
  [ ] Sheep
+ [ ] Teeth
+ [ ] Women
 

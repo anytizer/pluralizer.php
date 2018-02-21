@@ -150,7 +150,7 @@ class pluralizerTest extends TestCase
 	public function testChildren()
 	{
 		$this->markTestIncomplete();
-		$this->assertEquals("child", $this->pluralizer ->pluralize("children"));
+		$this->assertEquals("children", $this->pluralizer ->pluralize("child"));
 	}
 
 	public function testSheep()

@@ -1,6 +1,6 @@
 {
 	"name": "anytizer/pluralizer.php",
-	"description": "Pluralizes a word",
+	"description": "Pluralizes a common word",
 	"type": "library",
 	"keywords": [
 		"pluralizer"
@@ -10,8 +10,6 @@
 			"role": "Developer"
 		}
 	],
-	"minimum-stability": "stable",
-	"prefer-stable": true,
 	"require": {
 		"php": ">=7.0"
 	},

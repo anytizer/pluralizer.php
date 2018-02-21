@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/anytizer/pluralizer.php.git",
-                "reference": "efb6e8573656eb8116f4d382b7dd9487435110ee"
+                "reference": "d768e8c49b76ee813ee8a66ebb8b0dff3d78d1d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anytizer/pluralizer.php/zipball/efb6e8573656eb8116f4d382b7dd9487435110ee",
-                "reference": "efb6e8573656eb8116f4d382b7dd9487435110ee",
+                "url": "https://api.github.com/repos/anytizer/pluralizer.php/zipball/d768e8c49b76ee813ee8a66ebb8b0dff3d78d1d0",
+                "reference": "d768e8c49b76ee813ee8a66ebb8b0dff3d78d1d0",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
             "keywords": [
                 "pluralizer"
             ],
-            "time": "2018-02-21T21:38:38+00:00"
+            "time": "2018-02-21T21:48:54+00:00"
         }
     ],
     "packages-dev": [],

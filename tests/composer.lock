@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/anytizer/pluralizer.php.git",
-                "reference": "31d12dbf429c914151177fa8940f2e8acd93caf4"
+                "reference": "efb6e8573656eb8116f4d382b7dd9487435110ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anytizer/pluralizer.php/zipball/31d12dbf429c914151177fa8940f2e8acd93caf4",
-                "reference": "31d12dbf429c914151177fa8940f2e8acd93caf4",
+                "url": "https://api.github.com/repos/anytizer/pluralizer.php/zipball/efb6e8573656eb8116f4d382b7dd9487435110ee",
+                "reference": "efb6e8573656eb8116f4d382b7dd9487435110ee",
                 "shasum": ""
             },
             "require": {
@@ -25,16 +25,16 @@
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "src/libraries/classes/common/class.pluralizer.inc.php"
-                ]
+                "psr-4": {
+                    "pluralizer\\": "src/libraries/classes"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Pluralizes a word",
             "keywords": [
                 "pluralizer"
             ],
-            "time": "2017-05-12T04:58:58+00:00"
+            "time": "2018-02-21T21:38:38+00:00"
         }
     ],
     "packages-dev": [],

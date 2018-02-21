@@ -16,6 +16,8 @@
 		"php": ">=7.0"
 	},
 	"autoload": {
-		"psr-4": {"pluralizer\\": "src/libraries/classes"}
+		"psr-4": {
+			"common\\": "src/libraries/classes/common"
+		}
 	}
 }

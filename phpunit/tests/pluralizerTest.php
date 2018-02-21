@@ -38,12 +38,12 @@ class pluralizerTest extends TestCase
 		$this->assertEquals("gasses", $this->pluralizer ->pluralize("gas"));
 
 		# If the noun ends with ‑f or ‑fe, the f is often changed to ‑ve before adding the -s to form the plural version.
-		# roof – roofs
-		# belief – beliefs
-		# chef – chefs
-		# chief – chiefs
+		# root - roofs
 		$this->assertEquals("wives", $this->pluralizer ->pluralize("wife"));
 		$this->assertEquals("wolves", $this->pluralizer ->pluralize("wolf"));
+		$this->assertEquals("chefs", $this->pluralizer ->pluralize("chef"));
+		$this->assertEquals("chiefs", $this->pluralizer ->pluralize("chief"));
+		$this->assertEquals("beliefs", $this->pluralizer ->pluralize("belief"));
 
 		# If a singular noun ends in ‑y and the letter before the -y is a consonant, change the ending to ‑ies to make the noun plural.
 		#city – cities
@@ -169,5 +169,11 @@ class pluralizerTest extends TestCase
 	{
 		$this->markTestIncomplete();
 		$this->assertEquals("women", $this->pluralizer ->pluralize("woman"));
+	}
+
+	public function testRoofs()
+	{
+		$this->markTestIncomplete();
+		$this->assertEquals("roofs", $this->pluralizer ->pluralize("roof"));
 	}
 }

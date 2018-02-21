@@ -73,7 +73,7 @@ class pluralizer
 				$word_short .= $word[2]; // repeat character
 				$plural_marker = "es";
 				break;
-			case preg_match("/(f)$/", $word, $data):
+			case preg_match("/[^e](f)$/", $word, $data):
 				// wolf => wolves
 				$word_short = substr($word, 0, strlen($word) - 1);
 				$plural_marker = "ves";

@@ -1,0 +1,12 @@
+{
+    "name": "anytizer/pluralizer.php",
+    "description": "Pluralize words",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"common\\": "../src/common"
+		}
+	}
+}

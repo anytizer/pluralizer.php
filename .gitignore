@@ -2,3 +2,5 @@
 /.idea
 /docs
 /tests/vendor
+/tests.local/vendor
+/tests.global/vendor

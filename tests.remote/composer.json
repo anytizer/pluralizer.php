@@ -1,0 +1,5 @@
+{
+    "require": {
+        "anytizer/pluralizer.php": "dev-master"
+    }
+}

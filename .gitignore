@@ -4,3 +4,4 @@
 /tests/vendor
 /tests.local/vendor
 /tests.global/vendor
+/tests.remote/vendor

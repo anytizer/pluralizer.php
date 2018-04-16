@@ -1,6 +1,6 @@
 <?php
 namespace plugins;
-use common\pluralizer;
+use anytizer\pluralizer;
 
 /**
  * Makes a word plural, with easy guessing only.

@@ -14,7 +14,7 @@ Use one of:
 ## Example
 
     <?php
-    namespace backend\common;
+    namespace anytizer\anytizer;
 
     require "vendor/autoload.php";
 

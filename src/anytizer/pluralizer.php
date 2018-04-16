@@ -1,5 +1,5 @@
 <?php
-namespace common;
+namespace anytizer;
 
 /**
  * Pluralize a word, though not always gramatically correct.

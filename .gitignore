@@ -5,3 +5,4 @@
 /tests.local/vendor
 /tests.global/vendor
 /tests.remote/vendor
+/tests.remote/composer.lock

@@ -1,7 +1,7 @@
 <?php
 namespace tests;
 
-use common\pluralizer;
+use anytizer\pluralizer;
 use PHPUnit\Framework\TestCase;
 
 class pluralizerTest extends TestCase

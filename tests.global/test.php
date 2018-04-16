@@ -3,7 +3,7 @@ namespace tests;
 
 require_once("vendor/autoload.php");
 
-use common\pluralizer;
+use anytizer\pluralizer;
 
 $word = "house";
 

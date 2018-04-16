@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"common\\": "src/common"
+			"anytizer\\": "src/anytizer"
 		}
 	}
 }
